@@ -4,3 +4,8 @@ import pandas as pd
 st.title("Money Manager App")
 
 if 'transaction' not in st.session_state:
+    st.session_state['transactions'] =pd.DataFrame(columns=['Date',Description
+
+with st.form("transaction_form"):
+     date= st.date_input("Date")
+     description = st.text_input("Description")

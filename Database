@@ -1,1 +1,6 @@
-New 
+import stremalit as st
+import pandas as pd
+
+st.title("Money Manager App")
+
+if 'transaction' not in st.session_state:

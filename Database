@@ -4,8 +4,16 @@ import pandas as pd
 st.title("Money Manager App")
 
 if 'transaction' not in st.session_state:
-    st.session_state['transactions'] =pd.DataFrame(columns=['Date',Description
+    st.session_state['transactions'] =pd.DataFrame(columns=['Date',Description', 'Category', 'Amount'])
 
 with st.form("transaction_form"):
      date= st.date_input("Date")
      description = st.text_input("Description")
+     category = st.selectbox("Category,["Income","Food", "Rent","Entertainment", "Other"])
+     amount =st.number-input("Amount", step=0.01)
+     submitted = st.form_submit_button("Add Transaction")
+     if submitted:
+         new_row = pd.DataFrame([[date,description,category, amount]], columns=['Date','Description', 'Category', 'Amount'])
+         st.session_state['transactions'] =pd.concat([st.session_state[ 'transactions'], new_row], ignore_index=True)
+st.write("### Transactions")
+st.dataframe(st.session_state['transactions'])

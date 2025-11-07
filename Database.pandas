@@ -1,7 +1,0 @@
-import pandas as pd
-
-st.title("Money Manager App")
-
-if 'transaction' not in st.session_state:
-    st.session_state['transactions'] =pd.DataFrame(columns=['Date',Description', 'Category', 'Amount'])
-

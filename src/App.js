@@ -7,16 +7,17 @@ function App() {
         <div class="container">
           <div class="header">
           <div class="title-bar">
-            <h1 className='title'>Money Mangement</h1>
+            <h1 className='title'>Money Management</h1>
           </div>
         </div>
 
       <div class="content">
-          <div class="bracket-area">
-              <div class="match-round-1"></div>
-              <div class="match-round-2"></div>
-              <div class="final-match"></div>
+          <div class="step-contanier">
+              <div class="step-1">First Step</div>
+              <div class="step-2">Second Step</div>
+              <div class="step-3">Third Step</div>
           </div>
+          
           <div class="color-palette">
               <div class="color-dot dark-blue"></div>
               <div class="color-dot light-blue"></div>

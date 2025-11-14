@@ -7,16 +7,20 @@ function App() {
         <div class="container">
           <div class="header">
             <div class="topnav">
-            <nav>
-              <ul>
-                  <a href="#Home">Home</a>
-                  <a href="#Contact">Contact</a>
-              </ul>
-            </nav>
-          </div>
-          <div class="title-bar">
-            <h1 className='title'>Money Management</h1>
-          </div>
+              <nav>
+                <ul>
+                    <a href = "#Home">Home</a>
+                    <a href = "#Contact">Contact</a>
+                    <a href = "#About">About</a>
+                    <a href = "#What we offer">What we Offer</a>
+                    <a href = "#Join">Sign Up</a>
+                    <a href = "#Login">Login</a>
+                </ul>
+              </nav>
+            </div>
+            <div class="title-bar">
+                <h1 className='title'>Money Management</h1>
+            </div>
         </div>
 
           <div class="step-contanier">

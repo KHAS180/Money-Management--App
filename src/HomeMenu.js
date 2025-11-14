@@ -9,7 +9,7 @@ function App() {
           <div class="title-bar">
             <h1 className='title'>Money Management</h1>
           </div>
-          <div>
+          <div class="topnav">
             <nav>
               <ul>
                   <a href="#Home">Home</a>

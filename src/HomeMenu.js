@@ -9,9 +9,16 @@ function App() {
           <div class="title-bar">
             <h1 className='title'>Money Management</h1>
           </div>
+          <div>
+            <nav>
+              <ul>
+                  <a href="#Home">Home</a>
+                  <a href="#Contact">Contact</a>
+              </ul>
+            </nav>
+          </div>
         </div>
 
-      <div class="content">
           <div class="step-contanier">
               <div class="step-1">First Step</div>
               <div class="step-2">Second Step</div>
@@ -24,7 +31,6 @@ function App() {
               <div class="color-dot gold"></div>
               <div class="color-dot white"></div>
           </div>
-        </div>
       </div>
     </div>
   );

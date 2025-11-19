@@ -10,9 +10,6 @@ function App() {
               <nav>
                 <ul>
                     <a href = "#Home">Home</a>
-                    <a href = "#Contact">Contact</a>
-                    <a href = "#About">About</a>
-                    <a href = "#What we offer">What we Offer</a>
                     <a href = "#Join">Sign Up</a>
                     <a href = "#Login">Login</a>
                 </ul>
@@ -24,9 +21,11 @@ function App() {
         </div>
 
           <div class="step-contanier">
-              <div class="step-1">First Step</div>
-              <div class="step-2">Second Step</div>
-              <div class="step-3">Third Step</div>
+            <div class="textBox">
+              <a href="Contact"><p class="step-1">Contact</p></a>
+              <a href="About"><p class="step-2">About</p></a>
+              <a href='#Offer'><p class="step-3">What we Offer</p></a>
+            </div>
           </div>
           
           <div class="color-palette">

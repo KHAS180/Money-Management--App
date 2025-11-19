@@ -79,12 +79,6 @@
     background-color: #D6A840;
     color: white;
     padding: 20px;               
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 1.125rem;
-    font-weight: 600;
-    letter-spacing: 0.05em;
     border-radius: 0.5rem;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     border-bottom: 4px solid #D6A840; 
@@ -114,6 +108,10 @@
     width: 1050px;
     margin-left: 0;
     margin-top: 1rem;
+}
+.textBox{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
 }
 
 .bracket-container {
